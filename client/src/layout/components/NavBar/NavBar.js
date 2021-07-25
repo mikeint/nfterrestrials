@@ -8,8 +8,7 @@ class NavBar extends Component {
 	render() {
 		return (  
             <div className="topNavContainer"> 
-                <NavLink to="/" className="navItem"><img src={logo} alt={"icon"} /></NavLink> 
-                <NavLink to="/landing/games" className="navItem">Terrestrials</NavLink>
+                <NavLink to="/" className="navItem"><img src={logo} alt={"icon"} /></NavLink>
             </div>
         )
   	}
