@@ -1,8 +1,5 @@
 .terrestrialExamplesWrap { 
-    max-width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 450px;
+    margin-top: 40px;
 }
 .terrestrialExamplesBox {
     float: left;
@@ -29,12 +26,7 @@
         width: 50%;
         padding-bottom: 50%;
     }
-}
-@media only screen and (max-width:1024px) { 
-    .terrestrialExamplesWrap {
-        margin-top: 290px;
-    }
-}
+} 
 @media only screen and (max-width:650px) and (min-width:481px) {
     .terrestrialExamplesBox {
         width: 50%;

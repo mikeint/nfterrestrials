@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: column;
     width: 20%;
+    margin-right: 20px;
     max-width: 300px;
     min-width: 300px;
     transition: 0.3s;
@@ -22,13 +23,11 @@
     padding: 5px;
     margin-bottom: 10px;
     font-size: 25px;  
-    border-radius: 5px; 
-    background-image: url("../../files/images/filterImages/filter.png");
+    border-radius: 5px;  
     background-repeat: no-repeat;
-    background-position: right 10px center;
-    background-size: 10px;
-    background-color: #a656af;
+    background-position: right 10px center; 
     background-size: 30px;
+    background-color: #a656af; 
     -webkit-appearance: none;
     outline: 0;
     border: none;
@@ -40,15 +39,34 @@
     transition: 0.3s;
 }
 
-.accFilter { background-image: url("../../files/images/filterImages/filter.png")}
-.backwearFilter { background-image: url("../../files/images/filterImages/filter.png")}
-.bodyFilter { background-image: url("../../files/images/filterImages/filter.png")}
-.chestFilter { background-image: url("../../files/images/filterImages/filter.png")}
-.galaxyFilter { background-image: url("../../files/images/filterImages/filter.png")}
-.headwearFilter { background-image: url("../../files/images/filterImages/filter.png")}
+.accFilter { 
+    background-image: url("../../files/images/filterImages/acccFilter.png");
+    background-size: 20px;
+}
+.backwearFilter { 
+    background-image: url("../../files/images/filterImages/backwearFilter.png"); 
+    background-size: 35px;
+}
+.bodyFilter { 
+    background-image: url("../../files/images/filterImages/bodyFilter.png"); 
+}
+.chestFilter { 
+    background-image: url("../../files/images/filterImages/bodywearFilter.png");
+}
+.galaxyFilter { 
+    background-image: url("../../files/images/filterImages/galaxyFilter.png");
+    background-size: 50px;
+}
+.headwearFilter { 
+    background-image: url("../../files/images/filterImages/headwearFilter.png");
+}
 
 
 @media only screen and (max-width:1024px){
+    .filterBtn  {
+        height: 55px;  
+        font-size: 20px;
+    }
     .filterContainer {
         flex-direction: column;
         padding: 10px;

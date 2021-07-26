@@ -1,48 +1,59 @@
 import React, { Component } from 'react';
 import './Terrestrials.scss'
+ 
+import masterList from '../../files/masterJSON/masterJSON.json';
 
-import s1 from '../../files/images/species/s1.png'
-import s2 from '../../files/images/species/s2.png'
-import s3 from '../../files/images/species/s3.png'
-import s4 from '../../files/images/species/s4.png'
-import s5 from '../../files/images/species/s5.png'
-import s6 from '../../files/images/species/s6.png'
-import s7 from '../../files/images/species/s7.png'
-import s8 from '../../files/images/species/s8.png'
-
+const initialState = {
+    filterArray: [
+        { name: "accState", value: "ACCESSORIES" },
+        { name: "backwearState", value: "BACK WEAR" },
+        { name: "bodyState", value: "BODY" },
+        { name: "chestState", value: "CHEST" },
+        { name: "galaxyState", value: "GALAXY" },
+        { name: "headwearState", value: "HEAD WEAR" },
+    ]
+};
  
 class Terrestrials extends Component {
     constructor(props) {
         super(props);
-        this.state = {
-            accState:  "ACCESSORIES",
-            backwearState: "BACK WEAR",
-            bodyState: "BODY",
-            chestState: "CHEST",
-            galaxyState: "GALAXY",
-            headwearState: "HEAD WEAR"
-        };
+        this.state = initialState 
     }
-
+ 
     change = (e) => {
-        this.setState({galaxyState: e.target.value});
-    }
-    change = (e) => {
-        const target = e.target;
+        const { filterArray } = this.state;
+        const target = e.target; 
         this.setState({
-            [target.name]: target.value
+            filterArray: {
+                ...filterArray,
+                [target.name]: target.value 
+            }
+        }, () => {
+            this.showAliens(filterArray);
         });
     }
+
     reset = () => {
-        this.setState({accState: "ACCESSORIES"}); 
-        this.setState({backwearState: "BACK WEAR"}); 
-        this.setState({bodyState: "BODY"}); 
-        this.setState({chestState: "CHEST"}); 
-        this.setState({galaxyState: "GALAXY"}); 
-        this.setState({headwearState: "HEAD WEAR"}); 
+        this.setState(initialState, () => {
+            console.log(this.state.filterArray);
+        }); 
+    }
+
+    showAliens = () => {
+        return (
+            masterList.map((item, index) => (
+                <div key={index} className="terrestrialResultBox">
+                    <div className="terrestrialResultBoxInner"> 
+                        <img src={require('../../files/masterPNGS/' + item.image).default} alt={item.image} /> 
+                    </div>
+                </div>
+            ))
+        )
     }
 
 	render() {
+        const { filterArray } = this.state;
+
 		return (
             <div className="filterContainer">
                 
@@ -52,10 +63,10 @@ class Terrestrials extends Component {
                         name={"accState"}
                         onClick={this.clickDropdown}
                         onChange={this.change}
-                        value={this.state.accState}
-                        data-attr={this.state.accState}
+                        value={filterArray.accState}
+                        data-attr={filterArray.accState}
                     >
-                        <option value={this.state.accState} hidden>{this.state.accState}</option>
+                        <option value={filterArray.accState} hidden>{filterArray.accState}</option>
                         <option value="Crypto Cannon">Crypto Cannon</option>
                         <option value="Gold Lazer Gun">Gold Lazer Gun</option>
                         <option value="Dagger">Dagger</option>
@@ -69,10 +80,10 @@ class Terrestrials extends Component {
                         name={"backwearState"}
                         onClick={this.clickDropdown}
                         onChange={this.change}
-                        value={this.state.backwearState}
-                        data-attr={this.state.backwearState}
+                        value={filterArray.backwearState}
+                        data-attr={filterArray.backwearState}
                     >
-                        <option value={this.state.backwearState} hidden>{this.state.backwearState}</option>
+                        <option value={filterArray.backwearState} hidden>{filterArray.backwearState}</option>
                         <option value="Gold Sword">Gold Sword</option>
                         <option value="Gold Wings">Gold Wings</option>
                         <option value="White Wings">White Wings</option>
@@ -91,10 +102,10 @@ class Terrestrials extends Component {
                         name={"bodyState"}
                         onClick={this.clickDropdown}
                         onChange={this.change}
-                        value={this.state.bodyState}
-                        data-attr={this.state.bodyState}
+                        value={filterArray.bodyState}
+                        data-attr={filterArray.bodyState}
                     >
-                        <option value={this.state.bodyState} hidden>{this.state.bodyState}</option>
+                        <option value={filterArray.bodyState} hidden>{filterArray.bodyState}</option>
                         <option value="Aqua">Aqua</option>
                         <option value="Blue">Blue</option>
                         <option value="Green">Green</option>
@@ -112,10 +123,10 @@ class Terrestrials extends Component {
                         name={"chestState"}
                         onClick={this.clickDropdown}
                         onChange={this.change}
-                        value={this.state.chestState}
-                        data-attr={this.state.chestState}
+                        value={filterArray.chestState}
+                        data-attr={filterArray.chestState}
                     >
-                        <option value={this.state.chestState} hidden>{this.state.chestState}</option>
+                        <option value={filterArray.chestState} hidden>{filterArray.chestState}</option>
                         <option value="Black Armor">Black Armor</option>
                         <option value="Gold Armor">Gold Armor</option>
                         <option value="White Armor">White Armor</option>
@@ -130,10 +141,10 @@ class Terrestrials extends Component {
                         name={"galaxyState"}
                         onClick={this.clickDropdown}
                         onChange={this.change}
-                        value={this.state.galaxyState}
-                        data-attr={this.state.galaxyState}
+                        value={filterArray.galaxyState}
+                        data-attr={filterArray.galaxyState}
                     >
-                        <option value={this.state.galaxyState} hidden>{this.state.galaxyState}</option>
+                        <option value={filterArray.galaxyState} hidden>{filterArray.galaxyState}</option>
                         <option value="Andromeda">Andromeda</option>
                         <option value="Blackhole">Blackhole</option>
                         <option value="Cartwheel">Cartwheel</option>
@@ -151,10 +162,10 @@ class Terrestrials extends Component {
                         name={"headwearState"}
                         onClick={this.clickDropdown}
                         onChange={this.change}
-                        value={this.state.headwearState}
-                        data-attr={this.state.headwearState}
+                        value={filterArray.headwearState}
+                        data-attr={filterArray.headwearState}
                     >
-                        <option value={this.state.headwearState} hidden>{this.state.headwearState}</option>
+                        <option value={filterArray.headwearState} hidden>{filterArray.headwearState}</option>
                         <option value="Enemy Tracker">Enemy Tracker</option>
                         <option value="Gold Green Lazer Optics">Gold Green Lazer Optics</option>
                         <option value="Gold Red Lazer Optics - Red">Gold Red Lazer Optics - Red</option>
@@ -172,46 +183,7 @@ class Terrestrials extends Component {
 
                 <div className="filterResultsContainer"> 
                     <div className="resultWrap"> 
-                        <div className="terrestrialResultBox">
-                            <div className="terrestrialResultBoxInner">
-                                <img src={s4} alt={"s4"}/> 
-                            </div>
-                        </div>
-                        <div className="terrestrialResultBox">
-                            <div className="terrestrialResultBoxInner">
-                                <img src={s2} alt={"s2"}/> 
-                            </div>
-                        </div>
-                        <div className="terrestrialResultBox">
-                            <div className="terrestrialResultBoxInner">
-                                <img src={s3} alt={"s3"}/> 
-                            </div>
-                        </div>
-                        <div className="terrestrialResultBox">
-                            <div className="terrestrialResultBoxInner">
-                                <img src={s5} alt={"s5"}/> 
-                            </div>
-                        </div>
-                        <div className="terrestrialResultBox">
-                            <div className="terrestrialResultBoxInner">
-                                <img src={s8} alt={"s8"}/> 
-                            </div>
-                        </div>
-                        <div className="terrestrialResultBox">
-                            <div className="terrestrialResultBoxInner">
-                                <img src={s6} alt={"s6"}/> 
-                            </div>
-                        </div>
-                        <div className="terrestrialResultBox">
-                            <div className="terrestrialResultBoxInner">
-                                <img src={s7} alt={"s7"}/> 
-                            </div>
-                        </div>
-                        <div className="terrestrialResultBox">
-                            <div className="terrestrialResultBoxInner">
-                                <img src={s1} alt={"s1"}/> 
-                            </div>
-                        </div>  
+                        {this.showAliens()}
                     </div> 
                 </div>
 

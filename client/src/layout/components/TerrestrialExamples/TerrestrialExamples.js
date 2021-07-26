@@ -1,5 +1,5 @@
-import React from "react";
-import './TerrestrialExamples.scss';
+import React from "react"
+import './TerrestrialExamples.scss'
 
 import s1 from '../../files/images/species/s1.png'
 import s2 from '../../files/images/species/s2.png'

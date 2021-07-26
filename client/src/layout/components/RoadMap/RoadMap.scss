@@ -1,0 +1,55 @@
+.RoadMapContainer {
+    width: 100%;
+    display: inline-block; 
+    margin-bottom: 20px;
+    margin: auto;
+    margin-top: 50px; 
+    padding: 20px;
+}
+
+.roadMapItemContainer {
+    display: flex; 
+    justify-content: center;
+}
+
+.roadMapItem {
+    width: 560px;
+    height: 120px;
+    padding: 20px;
+    background: #18191a;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px -2px white;
+}
+
+.roadMapItemLeft {
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: 80px;
+    padding-left: 100px;
+
+    &.p1 {
+        background-image: url("../../files/images/planets/p1.png");
+    }
+    &.p2 {
+        background-image: url("../../files/images/planets/p2.png");
+    }
+    &.p3 {
+        background-image: url("../../files/images/planets/p3.png");
+    }
+    &.p4 {
+        background-image: url("../../files/images/planets/p4.png");
+    }
+    &.p5 {
+        background-image: url("../../files/images/planets/p5.png");
+    }
+    &.p6 {
+        background-image: url("../../files/images/planets/p6.png");
+    }
+    &.sc {
+        background-image: url("../../files/images/planets/sc.gif"); 
+        background-size: 120px;
+        background-position: -12px -30px;
+    }
+}
