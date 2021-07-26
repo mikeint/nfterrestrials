@@ -3,7 +3,6 @@
     display: inline-block; 
     margin-bottom: 20px;
     margin: auto;
-    margin-top: 50px; 
     padding: 20px;
 }
 
@@ -17,7 +16,6 @@
     flex-direction: column;
     justify-content: center;
     width: 560px;
-    height: 170px;
     padding: 20px;
     background: #18191a;
     color: #fff;
@@ -30,6 +28,7 @@
     background-position: 25px;
     &.p1 {
         background-image: url("../../files/images/planets/p1.png");
+        background-size: 50px;
     }
     &.p2 {
         background-image: url("../../files/images/planets/p2.png");

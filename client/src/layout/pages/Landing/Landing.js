@@ -3,6 +3,7 @@ import './Landing.scss'
 import TerrestrialExamples from "../../components/TerrestrialExamples/TerrestrialExamples" 
 import RoadMap from "../../components/RoadMap/RoadMap" 
 import AnimatedHero from "../../components/AnimatedHero/AnimatedHero" 
+import Bio from "../../components/Bio/Bio" 
 import Footer from "../../components/Footer/Footer" 
 
 class Landing extends Component {
@@ -12,6 +13,7 @@ class Landing extends Component {
                 <AnimatedHero />
                 <div className="homeBodyContainer">
                     <TerrestrialExamples />
+                    <Bio />
                     <RoadMap />
                     <Footer />
                 </div>

@@ -142,5 +142,8 @@
             font-size: 25px;
         }
     }
+    .marquee span {
+        animation: marquee 50s linear infinite;
+    } 
 }
 /* end HERO BUTTON */

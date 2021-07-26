@@ -14,6 +14,7 @@ class Terrestrials extends Component {
                 { name: "chestState", value: "" },
                 { name: "galaxyState", value: "" },
                 { name: "headwearState", value: "" },
+                { name: "speciesState", value: "" },
             ]
         }
     }
@@ -38,6 +39,7 @@ class Terrestrials extends Component {
                 { name: "chestState", value: "" },
                 { name: "galaxyState", value: "" },
                 { name: "headwearState", value: "" },
+                { name: "speciesState", value: "" },
             ]
         })
     }
@@ -45,12 +47,14 @@ class Terrestrials extends Component {
     showAliens = () => {
         const { filterArray } = this.state;
         return (
-            masterList.map(({attributes, image}, index)=> {
+            masterList.map(({attributes, image, name, url}, index)=> {
                 const attributeValues = attributes.map(a=>a.value)
-                if(filterArray.every(({value})=>attributeValues.includes(value) || value === ""))
+                if(filterArray.every(({value})=>attributeValues.includes(value) || value === "" || name === value))
                     return <div key={index} className="terrestrialResultBox">
-                        <div className="terrestrialResultBoxInner"> 
-                            <img src={require('../../files/masterPNGS/' + image).default} alt={image} /> 
+                        <div className="terrestrialResultBoxInner">
+                            <a href={url} target="_blank">
+                                <img src={require('../../files/masterPNGS/' + image).default} alt={image} /> 
+                            </a>
                         </div>
                     </div>
             })
@@ -65,15 +69,31 @@ class Terrestrials extends Component {
 	render() {
 		return (
             <div className="filterContainer">
-                
                 <div className="filterSelections">
+                    <select
+                        className="filterBtn speciesFilter"
+                        name={"speciesState"}
+                        onChange={this.change}
+                        value={this.checkFilterValue(6, "SPECIES")}
+                    >
+                        <option value={this.checkFilterValue(6, "SPECIES")} hidden>{this.checkFilterValue(6, "SPECIES")}</option>
+                        <option value="Martian (x)">Martian (X)</option>
+                        <option value="Martian (y)">Martian (Y)</option>
+                        <option value="Nordik (x)">Nordik (X)</option>
+                        <option value="Nordik (y)">Nordik (Y)</option>
+                        <option value="Sirian (x)">Sirian (X)</option>
+                        <option value="Sirian (y)">Sirian (Y)</option> 
+                        <option value="Talls (x)">Talls (X)</option> 
+                        <option value="Talls (y)">Talls (Y)</option> 
+                    </select>
+
                     <select
                         className="filterBtn accFilter"
                         name={"accState"}
                         onChange={this.change}
-                        value={this.checkFilterValue(0, "ACCESSORIES")}
+                        value={this.checkFilterValue(0, "WEAPONS")}
                     >
-                        <option value={this.checkFilterValue(0, "ACCESSORIES")} hidden>{this.checkFilterValue(0, "ACCESSORIES")}</option>
+                        <option value={this.checkFilterValue(0, "WEAPONS")} hidden>{this.checkFilterValue(0, "WEAPONS")}</option>
                         <option value="Crypto Cannon">Crypto Cannon</option>
                         <option value="Gold Lazer Gun">Gold Lazer Gun</option>
                         <option value="Dagger">Dagger</option>
@@ -106,9 +126,9 @@ class Terrestrials extends Component {
                         className="filterBtn bodyFilter"
                         name={"bodyState"}
                         onChange={this.change}
-                        value={this.checkFilterValue(1, "BODY")}
+                        value={this.checkFilterValue(2, "BODY")}
                     >
-                        <option value={this.checkFilterValue(1, "BODY")} hidden>{this.checkFilterValue(1, "BODY")}</option>
+                        <option value={this.checkFilterValue(2, "BODY")} hidden>{this.checkFilterValue(2, "BODY")}</option>
                         <option value="Aqua">Aqua</option>
                         <option value="Blue">Blue</option>
                         <option value="Green">Green</option>
@@ -125,9 +145,9 @@ class Terrestrials extends Component {
                         className="filterBtn chestFilter"
                         name={"chestState"}
                         onChange={this.change}
-                        value={this.checkFilterValue(1, "CHEST")}
+                        value={this.checkFilterValue(3, "CHEST")}
                     >
-                        <option value={this.checkFilterValue(1, "CHEST")} hidden>{this.checkFilterValue(1, "CHEST")}</option>
+                        <option value={this.checkFilterValue(3, "CHEST")} hidden>{this.checkFilterValue(3, "CHEST")}</option>
                         <option value="Black Armor">Black Armor</option>
                         <option value="Gold Armor">Gold Armor</option>
                         <option value="White Armor">White Armor</option>
@@ -141,9 +161,9 @@ class Terrestrials extends Component {
                         className="filterBtn galaxyFilter"
                         name={"galaxyState"}
                         onChange={this.change}
-                        value={this.checkFilterValue(1, "GALAXY")}
+                        value={this.checkFilterValue(4, "GALAXY")}
                     >
-                        <option value={this.checkFilterValue(1, "GALAXY")} hidden>{this.checkFilterValue(1, "GALAXY")}</option>
+                        <option value={this.checkFilterValue(4, "GALAXY")} hidden>{this.checkFilterValue(4, "GALAXY")}</option>
                         <option value="Andromeda">Andromeda</option>
                         <option value="Blackhole">Blackhole</option>
                         <option value="Cartwheel">Cartwheel</option>
@@ -160,9 +180,9 @@ class Terrestrials extends Component {
                         className="filterBtn headwearFilter"
                         name={"headwearState"}
                         onChange={this.change}
-                        value={this.checkFilterValue(1, "HEAD WEAR")}
+                        value={this.checkFilterValue(5, "HEAD WEAR")}
                     >
-                        <option value={this.checkFilterValue(1, "HEAD WEAR")} hidden>{this.checkFilterValue(1, "HEAD WEAR")}</option>
+                        <option value={this.checkFilterValue(5, "HEAD WEAR")} hidden>{this.checkFilterValue(5, "HEAD WEAR")}</option>
                         <option value="Enemy Tracker">Enemy Tracker</option>
                         <option value="Gold Green Lazer Optics">Gold Green Lazer Optics</option>
                         <option value="Gold Red Lazer Optics - Red">Gold Red Lazer Optics - Red</option>
@@ -175,6 +195,7 @@ class Terrestrials extends Component {
                         <option value="Red Lazer Optics">Red Lazer Optics</option>
                         <option value="Blue Lazer Optics">Blue Lazer Optics</option>
                     </select>
+                     
                     <button className="resetFilterBtn" onClick={this.reset}>reset</button>
                 </div>
 
