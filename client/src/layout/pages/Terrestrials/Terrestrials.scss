@@ -81,6 +81,9 @@
         flex-direction: row;
         width: unset;
     } 
+    .bodyFilter { 
+        background-size: 20px;
+    }
 }
 
 
@@ -132,9 +135,7 @@
 
 
 
-
-
-
+ 
 
 .resetFilterBtn {
     width: 100%;
@@ -150,4 +151,8 @@
     border: none;
     cursor: pointer;
     color: #fff;
+    transition: 0.3s;
+    &:hover {
+        background: #8e8e8ec2;
+    }
 }

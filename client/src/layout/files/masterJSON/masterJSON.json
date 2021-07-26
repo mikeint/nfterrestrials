@@ -263,7 +263,6 @@
     },
     {
         "name": "Nordik (x)",
-        "description": "",
         "image": "alien165.png",
         "attributes": [
             {
@@ -282,7 +281,6 @@
     },
     {
         "name": "Nordik (x)",
-        "description": "",
         "image": "alien195.png",
         "attributes": [
             {
@@ -305,7 +303,6 @@
     },
     {
         "name": "Nordik (x)",
-        "description": "",
         "image": "alien212.png",
         "attributes": [
             {
@@ -328,7 +325,6 @@
     },
     {
         "name": "Nordik (x)",
-        "description": "",
         "image": "alien214.png",
         "attributes": [
             {
@@ -351,7 +347,6 @@
     },
     {
         "name": "Nordik (y)",
-        "description": "",
         "image": "alien246.png",
         "attributes": [
             {
@@ -374,7 +369,6 @@
     },
     {
         "name": "Nordik (y)",
-        "description": "",
         "image": "alien249.png",
         "attributes": [
             {
@@ -401,7 +395,6 @@
     },
     {
         "name": "Nordik (y)",
-        "description": "",
         "image": "alien280.png",
         "attributes": [
             {
@@ -428,7 +421,6 @@
     },
     {
         "name": "Sirian (x)",
-        "description": "",
         "image": "alien291.png",
         "attributes": [
             {
@@ -451,7 +443,6 @@
     },
     {
         "name": "Sirian (x)",
-        "description": "",
         "image": "alien295.png",
         "attributes": [
             {
@@ -478,7 +469,6 @@
     },
     {
         "name": "Sirian (y)",
-        "description": "",
         "image": "alien362.png",
         "attributes": [
             {
@@ -505,7 +495,6 @@
     },
     {
         "name": "Sirian (y)",
-        "description": "",
         "image": "alien395.png",
         "attributes": [
             {
@@ -524,7 +513,6 @@
     },
     {
         "name": "Talls (x)",
-        "description": "",
         "image": "alien409.png",
         "attributes": [
             {
@@ -547,7 +535,6 @@
     },
     {
         "name": "Talls (x)",
-        "description": "",
         "image": "alien451.png",
         "attributes": [
             {
@@ -570,7 +557,6 @@
     },
     {
         "name": "Talls (y)",
-        "description": "",
         "image": "alien468.png",
         "attributes": [
             {

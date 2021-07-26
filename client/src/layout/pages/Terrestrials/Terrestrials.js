@@ -1,59 +1,68 @@
 import React, { Component } from 'react';
 import './Terrestrials.scss'
- 
+
 import masterList from '../../files/masterJSON/masterJSON.json';
 
-const initialState = {
-    filterArray: [
-        { name: "accState", value: "ACCESSORIES" },
-        { name: "backwearState", value: "BACK WEAR" },
-        { name: "bodyState", value: "BODY" },
-        { name: "chestState", value: "CHEST" },
-        { name: "galaxyState", value: "GALAXY" },
-        { name: "headwearState", value: "HEAD WEAR" },
-    ]
-};
- 
 class Terrestrials extends Component {
     constructor(props) {
         super(props);
-        this.state = initialState 
+        this.state={
+            filterArray: [
+                { name: "accState", value: "" },
+                { name: "backwearState", value: "" },
+                { name: "bodyState", value: "" },
+                { name: "chestState", value: "" },
+                { name: "galaxyState", value: "" },
+                { name: "headwearState", value: "" },
+            ]
+        }
     }
- 
+
     change = (e) => {
         const { filterArray } = this.state;
-        const target = e.target; 
-        this.setState({
-            filterArray: {
-                ...filterArray,
-                [target.name]: target.value 
-            }
-        }, () => {
-            this.showAliens(filterArray);
-        });
+        const target = e.target;
+        const arrCopy = [...filterArray]
+
+        arrCopy.forEach((filter)=>{
+            if(filter.name === target.name) filter.value = target.value;
+        })
+        this.setState({filterArray: arrCopy})
     }
 
     reset = () => {
-        this.setState(initialState, () => {
-            console.log(this.state.filterArray);
-        }); 
+        this.setState({
+            filterArray: [
+                { name: "accState", value: "" },
+                { name: "backwearState", value: "" },
+                { name: "bodyState", value: "" },
+                { name: "chestState", value: "" },
+                { name: "galaxyState", value: "" },
+                { name: "headwearState", value: "" },
+            ]
+        })
     }
 
     showAliens = () => {
+        const { filterArray } = this.state;
         return (
-            masterList.map((item, index) => (
-                <div key={index} className="terrestrialResultBox">
-                    <div className="terrestrialResultBoxInner"> 
-                        <img src={require('../../files/masterPNGS/' + item.image).default} alt={item.image} /> 
+            masterList.map(({attributes, image}, index)=> {
+                const attributeValues = attributes.map(a=>a.value)
+                if(filterArray.every(({value})=>attributeValues.includes(value) || value === ""))
+                    return <div key={index} className="terrestrialResultBox">
+                        <div className="terrestrialResultBoxInner"> 
+                            <img src={require('../../files/masterPNGS/' + image).default} alt={image} /> 
+                        </div>
                     </div>
-                </div>
-            ))
+            })
         )
     }
 
-	render() {
+    checkFilterValue = (i, val) => {
         const { filterArray } = this.state;
-
+        return filterArray[i].value === "" ? val : filterArray[i].value
+    }
+ 
+	render() {
 		return (
             <div className="filterContainer">
                 
@@ -61,12 +70,10 @@ class Terrestrials extends Component {
                     <select
                         className="filterBtn accFilter"
                         name={"accState"}
-                        onClick={this.clickDropdown}
                         onChange={this.change}
-                        value={filterArray.accState}
-                        data-attr={filterArray.accState}
+                        value={this.checkFilterValue(0, "ACCESSORIES")}
                     >
-                        <option value={filterArray.accState} hidden>{filterArray.accState}</option>
+                        <option value={this.checkFilterValue(0, "ACCESSORIES")} hidden>{this.checkFilterValue(0, "ACCESSORIES")}</option>
                         <option value="Crypto Cannon">Crypto Cannon</option>
                         <option value="Gold Lazer Gun">Gold Lazer Gun</option>
                         <option value="Dagger">Dagger</option>
@@ -78,12 +85,10 @@ class Terrestrials extends Component {
                     <select
                         className="filterBtn backwearFilter"
                         name={"backwearState"}
-                        onClick={this.clickDropdown}
                         onChange={this.change}
-                        value={filterArray.backwearState}
-                        data-attr={filterArray.backwearState}
+                        value={this.checkFilterValue(1, "BACK WEAR")}
                     >
-                        <option value={filterArray.backwearState} hidden>{filterArray.backwearState}</option>
+                        <option value={this.checkFilterValue(1, "BACK WEAR")} hidden>{this.checkFilterValue(1, "BACK WEAR")}</option>
                         <option value="Gold Sword">Gold Sword</option>
                         <option value="Gold Wings">Gold Wings</option>
                         <option value="White Wings">White Wings</option>
@@ -100,12 +105,10 @@ class Terrestrials extends Component {
                     <select
                         className="filterBtn bodyFilter"
                         name={"bodyState"}
-                        onClick={this.clickDropdown}
                         onChange={this.change}
-                        value={filterArray.bodyState}
-                        data-attr={filterArray.bodyState}
+                        value={this.checkFilterValue(1, "BODY")}
                     >
-                        <option value={filterArray.bodyState} hidden>{filterArray.bodyState}</option>
+                        <option value={this.checkFilterValue(1, "BODY")} hidden>{this.checkFilterValue(1, "BODY")}</option>
                         <option value="Aqua">Aqua</option>
                         <option value="Blue">Blue</option>
                         <option value="Green">Green</option>
@@ -121,12 +124,10 @@ class Terrestrials extends Component {
                     <select
                         className="filterBtn chestFilter"
                         name={"chestState"}
-                        onClick={this.clickDropdown}
                         onChange={this.change}
-                        value={filterArray.chestState}
-                        data-attr={filterArray.chestState}
+                        value={this.checkFilterValue(1, "CHEST")}
                     >
-                        <option value={filterArray.chestState} hidden>{filterArray.chestState}</option>
+                        <option value={this.checkFilterValue(1, "CHEST")} hidden>{this.checkFilterValue(1, "CHEST")}</option>
                         <option value="Black Armor">Black Armor</option>
                         <option value="Gold Armor">Gold Armor</option>
                         <option value="White Armor">White Armor</option>
@@ -139,12 +140,10 @@ class Terrestrials extends Component {
                     <select
                         className="filterBtn galaxyFilter"
                         name={"galaxyState"}
-                        onClick={this.clickDropdown}
                         onChange={this.change}
-                        value={filterArray.galaxyState}
-                        data-attr={filterArray.galaxyState}
+                        value={this.checkFilterValue(1, "GALAXY")}
                     >
-                        <option value={filterArray.galaxyState} hidden>{filterArray.galaxyState}</option>
+                        <option value={this.checkFilterValue(1, "GALAXY")} hidden>{this.checkFilterValue(1, "GALAXY")}</option>
                         <option value="Andromeda">Andromeda</option>
                         <option value="Blackhole">Blackhole</option>
                         <option value="Cartwheel">Cartwheel</option>
@@ -160,12 +159,10 @@ class Terrestrials extends Component {
                     <select
                         className="filterBtn headwearFilter"
                         name={"headwearState"}
-                        onClick={this.clickDropdown}
                         onChange={this.change}
-                        value={filterArray.headwearState}
-                        data-attr={filterArray.headwearState}
+                        value={this.checkFilterValue(1, "HEAD WEAR")}
                     >
-                        <option value={filterArray.headwearState} hidden>{filterArray.headwearState}</option>
+                        <option value={this.checkFilterValue(1, "HEAD WEAR")} hidden>{this.checkFilterValue(1, "HEAD WEAR")}</option>
                         <option value="Enemy Tracker">Enemy Tracker</option>
                         <option value="Gold Green Lazer Optics">Gold Green Lazer Optics</option>
                         <option value="Gold Red Lazer Optics - Red">Gold Red Lazer Optics - Red</option>

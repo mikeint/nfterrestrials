@@ -4,8 +4,8 @@
 .terrestrialExamplesBox {
     float: left;
     position: relative;
-    width: 25%;
-    padding-bottom: 25%;
+    width: 16.6666666%;
+    padding-bottom: 16.6666666%;
     background: #292929;
     box-shadow: inset 0px 0px 4px 4px #18191a;
 }
@@ -32,10 +32,4 @@
         width: 50%;
         padding-bottom: 50%;
     }
-}
-@media only screen and (max-width:1290px) and (min-width:1051px) {
-    .terrestrialExamplesBox {
-        width: 25%;
-        padding-bottom: 25%;
-    }
-}
+} 
