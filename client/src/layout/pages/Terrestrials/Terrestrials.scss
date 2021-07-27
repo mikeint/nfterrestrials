@@ -65,6 +65,33 @@
 }
 
 
+.resetFilterBtn {
+    width: 100%;
+    height: 75px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    border-radius: 5px;
+    background: #8e8e8e;
+    background-size: 30px;
+    -webkit-appearance: none;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+    &:hover {
+        background: #8e8e8ec2;
+    }
+}
+@media only screen and (max-width:480px) {
+    .resetFilterBtn {
+        height: 55px;   
+        font-size: 20px;
+    }
+} 
+
+
 @media only screen and (max-width:1024px){
     .filterBtn  {
         height: 55px;  
@@ -135,27 +162,3 @@
     }
 }
 /* end FILTER RESULTS */
-
-
-
- 
-
-.resetFilterBtn {
-    width: 100%;
-    height: 75px;
-    padding: 5px;
-    margin-bottom: 10px;
-    font-size: 35px;
-    border-radius: 5px;
-    background: #8e8e8e;
-    background-size: 30px;
-    -webkit-appearance: none;
-    outline: 0;
-    border: none;
-    cursor: pointer;
-    color: #fff;
-    transition: 0.3s;
-    &:hover {
-        background: #8e8e8ec2;
-    }
-}

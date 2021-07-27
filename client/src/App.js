@@ -8,7 +8,7 @@ const App = () =>
     <BrowserRouter>
         <> 
             <Route exact path="/" component={Landing} />  
-            <Route exact path="/landing/terrestrials" component={LandingRouter} />
+            <Route exact path="/terrestrials" component={LandingRouter} />
         </>
     </BrowserRouter> 
 

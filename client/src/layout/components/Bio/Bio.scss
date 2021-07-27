@@ -1,11 +1,22 @@
-.bioContainer {
-    padding-top: 50px;
+.bioContainer { 
     display: inline-block;
     color: #fff;
     font-size: 17px;
     padding: 20px;
-    line-height: 51px;
+    line-height: 6vw;
     text-align: center;
     background-color: #18191a;
     box-shadow: 0px -125px 90px 50px #5c1a8a;
+}
+
+
+@media only screen and (min-width:1024px) {  
+    .bioContainer {
+        line-height: 50px;
+    }
+}
+@media only screen and (max-width:1024px) {  
+    .bioContainer {
+        box-shadow: none;
+    }
 }

@@ -25,7 +25,7 @@ const RoadMap = () =>
         </div>
         <div className="roadMapItemContainer">
             <div className="roadMapItem p5 roadMapItemLeft">300 Sold - 60%</div>
-            <div className="roadMapItem">Merchandice drop.<br />Rarity.tools integration.</div>
+            <div className="roadMapItem">Merchandise drop.<br />Rarity.tools integration.</div>
             <div className="roadMapItem roadMapItemCheck"></div>
         </div>
         <div className="roadMapItemContainer">

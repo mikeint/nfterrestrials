@@ -9,7 +9,7 @@ function LandingRouter({ match }) {
         <> 
             <div className="lp2_menu"><NavBar /></div> 
             <Switch> 
-                <Route exact path="/landing/terrestrials" component={Terrestrials} />
+                <Route exact path="/terrestrials" component={Terrestrials} />
             </Switch> 
         </>
     );

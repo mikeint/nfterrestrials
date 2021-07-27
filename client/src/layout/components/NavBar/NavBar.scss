@@ -1,9 +1,18 @@
  .topNavContainer {
      width: 100%;
      height: 82px;
-     background-color: black;
+     background-color: #0007;
 }
 
 .navItem img {
-    width: 280px;
+    width: 310px;
+    padding-left: 13px;
+}
+
+
+
+@media only screen and (max-width:1024px) {  
+    .topNavContainer {
+        text-align: center;
+    }
 }

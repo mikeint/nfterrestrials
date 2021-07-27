@@ -1,0 +1,19 @@
+.socialsContainer {
+    width: 100%;
+    text-align: center;
+    img {
+        width: 88px;
+        height: 75px;
+        padding: 15px;
+        background-color: #a656af94;
+        border-radius: 20px;
+        margin: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+        border: 1px solid #ffffff80;
+        &:hover {
+            background-color: #ffffff80;
+            color: #18191A;
+        }
+    }
+}

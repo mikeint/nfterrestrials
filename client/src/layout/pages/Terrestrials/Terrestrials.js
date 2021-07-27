@@ -52,11 +52,13 @@ class Terrestrials extends Component {
                 if(filterArray.every(({value})=>attributeValues.includes(value) || value === "" || name === value))
                     return <div key={index} className="terrestrialResultBox">
                         <div className="terrestrialResultBoxInner">
-                            <a href={url} target="_blank">
+                            <a href={url} target="_blank" rel="noreferrer">
                                 <img src={require('../../files/masterPNGS/' + image).default} alt={image} /> 
                             </a>
                         </div>
                     </div>
+                else 
+                    return ""
             })
         )
     }

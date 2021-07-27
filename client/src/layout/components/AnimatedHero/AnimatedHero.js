@@ -12,10 +12,12 @@ class Landing extends Component {
                         <div id="heroLayer2" className="heroLayer"></div>
                         <div className="marquee"><span id="heroLayer0" className="heroLayer heroLayerStatic"></span></div>
                         <div id="heroLayer3" className="heroLayer"></div> 
+                    </div>  
+
+                    <div className="seeCollectionBtnContainer">
+                        <span><Link to="/terrestrials" className="seeCollectionBtn">SEE COLLECTION</Link></span> 
                     </div>
-                    <div className="seeCollectionBtn">
-                        <span><Link to="/landing/terrestrials">SEE COLLECTION</Link></span>
-                    </div> 
+
                 </div>
             </div> 
         );
