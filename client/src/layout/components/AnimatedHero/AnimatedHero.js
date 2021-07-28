@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import './AnimatedHero.scss'
-import { Link } from "react-router-dom" 
 
 class Landing extends Component {
     render() {
@@ -13,11 +12,6 @@ class Landing extends Component {
                         <div className="marquee"><span id="heroLayer0" className="heroLayer heroLayerStatic"></span></div>
                         <div id="heroLayer3" className="heroLayer"></div> 
                     </div>  
-
-                    <div className="seeCollectionBtnContainer">
-                        <span><Link to="/terrestrials" className="seeCollectionBtn">SEE COLLECTION</Link></span> 
-                    </div>
-
                 </div>
             </div> 
         );
