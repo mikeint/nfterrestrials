@@ -4,12 +4,16 @@
     justify-content: flex-end;
     position: absolute;
     z-index: 9;
+    right: 20px;
+    top: 20px;
     img {
         width: 60px;
         height: 60px;
         padding: 10px; 
     }
     a {
+        width: 60px;
+        height: 60px;
         margin: 8px;
         cursor: pointer;
         color: #fff;
@@ -32,6 +36,8 @@
 
 @media only screen and (max-width:1024px) {
     .socialsContainer { 
+        right: 0px;
+        top: 10px;
         justify-content: center;
     }
 }
