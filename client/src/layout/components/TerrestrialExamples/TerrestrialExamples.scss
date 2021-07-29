@@ -1,19 +1,27 @@
 .terrestrialExamplesBox {
     float: left;
     position: relative;
-    width: 16.6666666%;
-    padding-bottom: 16.6666666%;
-    background: #292929;
-    box-shadow: inset 0px 0px 4px 4px #18191a;
+    width: 16.6666667%;
+    padding-bottom: 16.6666667%;
 }
 .terrestrialExamplesBoxInner {
     position: absolute;
-    left: 10px;
-    right: 10px;
-    top: 10px;
-    bottom: 10px;
+    left: 5px;
+    right: 5px;
     overflow: hidden;
-    box-shadow: 0px 20px 20px -5px #6a3c6f;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 8);
+    &:hover {
+        //box-shadow: inset 0 0 10px #6a3c6f80, 0 0 10px #6a3c6f80;
+        outline-offset: 10px;
+        outline-color: #ffffff00;
+    }
+
+    &.tb1{&:hover {box-shadow: inset 0 0 10px #6aaeb780, 0 0 10px #6aaeb780;}}
+    &.tb2{&:hover {box-shadow: inset 0 0 15px #071027, 0 0 15px #071027;}}
+    &.tb3{&:hover {box-shadow: inset 0 0 10px #0d3d6d80, 0 0 10px #0d3d6d80;}}
+    &.tb4{&:hover {box-shadow: inset 0 0 10px #071027, 0 0 10px #071027;}}
+    &.tb5{&:hover {box-shadow: inset 0 0 10px #7a1f3480, 0 0 10px #7a1f3480;}}
+    &.tb6{&:hover {box-shadow: inset 0 0 10px #9567a980, 0 0 10px #9567a980;}}
 }
  .terrestrialExamplesBoxInner img {
     width: 100%

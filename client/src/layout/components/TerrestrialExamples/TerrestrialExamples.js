@@ -16,39 +16,39 @@ const TerrestrialExamples = () =>
             <div className="terrestrialExamplesBoxInner">
                 <img src={s4} alt={"s4"}/> 
             </div>
-        </div> */}
+        </div> *
         <div className="terrestrialExamplesBox">
-            <div className="terrestrialExamplesBoxInner">
-                <img src={s2} alt={"s2"}/> 
-            </div>
-        </div>
-{/*         <div className="terrestrialExamplesBox">
             <div className="terrestrialExamplesBoxInner">
                 <img src={s3} alt={"s3"}/> 
             </div>
         </div>*/}
         <div className="terrestrialExamplesBox">
-            <div className="terrestrialExamplesBoxInner">
+            <div className="terrestrialExamplesBoxInner tb1">
+                <img src={s2} alt={"s2"}/> 
+            </div>
+        </div>
+        <div className="terrestrialExamplesBox">
+            <div className="terrestrialExamplesBoxInner tb2">
                 <img src={s5} alt={"s5"}/> 
             </div>
         </div>
         <div className="terrestrialExamplesBox">
-            <div className="terrestrialExamplesBoxInner">
+            <div className="terrestrialExamplesBoxInner tb3">
                 <img src={s8} alt={"s8"}/> 
             </div>
         </div> 
         <div className="terrestrialExamplesBox">
-            <div className="terrestrialExamplesBoxInner">
+            <div className="terrestrialExamplesBoxInner tb4">
                 <img src={s6} alt={"s6"}/> 
             </div>
         </div>
         <div className="terrestrialExamplesBox">
-            <div className="terrestrialExamplesBoxInner">
+            <div className="terrestrialExamplesBoxInner tb5">
                 <img src={s7} alt={"s7"}/> 
             </div>
         </div>
         <div className="terrestrialExamplesBox">
-            <div className="terrestrialExamplesBoxInner">
+            <div className="terrestrialExamplesBoxInner tb6">
                 <img src={s1} alt={"s1"}/> 
             </div>
         </div>  
