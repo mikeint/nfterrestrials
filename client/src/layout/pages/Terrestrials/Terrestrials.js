@@ -73,7 +73,7 @@ class Terrestrials extends Component {
             <div className="filterContainer">
                 <div className="filterSelections">
                     <select
-                        className="filterBtn speciesFilter"
+                        className={'filterBtn '+ this.checkFilterValue(6, "filterSelected")}
                         name={"speciesState"}
                         onChange={this.change}
                         value={this.checkFilterValue(6, "SPECIES")}
@@ -90,7 +90,7 @@ class Terrestrials extends Component {
                     </select>
 
                     <select
-                        className="filterBtn accFilter"
+                        className={'filterBtn '+this.checkFilterValue(0, "filterSelected")}
                         name={"accState"}
                         onChange={this.change}
                         value={this.checkFilterValue(0, "WEAPONS")}
@@ -105,7 +105,7 @@ class Terrestrials extends Component {
                     </select>
 
                     <select
-                        className="filterBtn backwearFilter"
+                        className={'filterBtn '+this.checkFilterValue(1, "filterSelected")}
                         name={"backwearState"}
                         onChange={this.change}
                         value={this.checkFilterValue(1, "BACK WEAR")}
@@ -125,7 +125,7 @@ class Terrestrials extends Component {
                     </select>
 
                     <select
-                        className="filterBtn bodyFilter"
+                        className={'filterBtn '+this.checkFilterValue(2, "filterSelected")}
                         name={"bodyState"}
                         onChange={this.change}
                         value={this.checkFilterValue(2, "BODY")}
@@ -144,7 +144,7 @@ class Terrestrials extends Component {
                     </select>
 
                     <select
-                        className="filterBtn chestFilter"
+                        className={'filterBtn '+this.checkFilterValue(3, "filterSelected")}
                         name={"chestState"}
                         onChange={this.change}
                         value={this.checkFilterValue(3, "CHEST")}
@@ -160,7 +160,7 @@ class Terrestrials extends Component {
                     </select>
 
                     <select
-                        className="filterBtn galaxyFilter"
+                        className={'filterBtn '+this.checkFilterValue(4, "filterSelected")}
                         name={"galaxyState"}
                         onChange={this.change}
                         value={this.checkFilterValue(4, "GALAXY")}
@@ -179,7 +179,7 @@ class Terrestrials extends Component {
                     </select>
 
                     <select
-                        className="filterBtn headwearFilter"
+                        className={'filterBtn '+this.checkFilterValue(5, "filterSelected")}
                         name={"headwearState"}
                         onChange={this.change}
                         value={this.checkFilterValue(5, "HEAD WEAR")}

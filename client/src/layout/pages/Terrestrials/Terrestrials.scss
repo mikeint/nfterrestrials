@@ -26,43 +26,28 @@
     background-repeat: no-repeat;
     background-position: right 10px center; 
     background-size: 30px;
-    background-color: #a656af; 
     -webkit-appearance: none;
     outline: 0;
     border: none;
     cursor: pointer;
     color: #fff;
     outline: none !important;
-    border: 1px solid white;
+    border: 4px solid white;
+    transition: 0.3s; 
+    font-weight: bold;
+    background-color: #a656afb5;  
+    background-image: url("../../files/images/filterSelected.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.filterSelected { 
+    font-weight: unset; 
+    background-color: #a656af; 
     box-shadow: 0 0 15px #8c3a96;
-    transition: 0.3s;
+    background-image: unset; 
+    border: 1px solid white;
 }
-
-.speciesFilter { 
-    /* background-image: url("../../files/images/filterImages/.png"); */
-}
-.accFilter { 
-    background-image: url("../../files/images/filterImages/acccFilter.png");
-    background-size: 20px;
-}
-.backwearFilter { 
-    background-image: url("../../files/images/filterImages/backwearFilter.png"); 
-    background-size: 35px;
-}
-.bodyFilter { 
-    background-image: url("../../files/images/filterImages/bodyFilter.png"); 
-}
-.chestFilter { 
-    background-image: url("../../files/images/filterImages/bodywearFilter.png");
-}
-.galaxyFilter { 
-    background-image: url("../../files/images/filterImages/galaxyFilter.png");
-    background-size: 50px;
-}
-.headwearFilter { 
-    background-image: url("../../files/images/filterImages/headwearFilter.png");
-}
-
 
 .resetFilterBtn {
     width: 100%;
