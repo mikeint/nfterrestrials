@@ -7,7 +7,7 @@ import Terrestrials from './pages/Terrestrials/Terrestrials'
 function LandingRouter({ match }) {
     return ( 
         <> 
-            <div className="lp2_menu"><NavBar /></div> 
+            <NavBar />
             <Switch> 
                 <Route exact path="/terrestrials" component={Terrestrials} />
             </Switch> 
