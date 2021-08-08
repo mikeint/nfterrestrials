@@ -118,6 +118,7 @@ class Terrestrials extends Component {
                         <option value="Wings">Wings</option>
                         <option value="Jetpack">Jetpack</option>
                         <option value="White Jetpack">White Jetpack</option>
+                        <option value="Black Jetpack">Black Jetpack</option>
                         <option value="Axe">Axe</option>
                         <option value="Double Sword">Double Sword</option>
                         <option value="Sword">Sword</option>
@@ -187,7 +188,7 @@ class Terrestrials extends Component {
                         <option value={this.checkFilterValue(5, "HEAD WEAR")} hidden>{this.checkFilterValue(5, "HEAD WEAR")}</option>
                         <option value="Enemy Tracker">Enemy Tracker</option>
                         <option value="Gold Green Lazer Optics">Gold Green Lazer Optics</option>
-                        <option value="Gold Red Lazer Optics - Red">Gold Red Lazer Optics - Red</option>
+                        <option value="Gold Red Lazer Optics">Gold Red Lazer Optics</option>
                         <option value="Gold Green Mono Optic">Gold Green Mono Optic</option>
                         <option value="Gold Red Mono Optic">Gold Red Mono Optic</option>
                         <option value="Blue Mono Optic">Blue Mono Optic</option>
