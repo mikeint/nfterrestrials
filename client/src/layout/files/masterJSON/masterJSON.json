@@ -1453,5 +1453,25 @@
                 "value": "Purple Vest"
             }
         ]
+    },
+    {
+        "name": "NF Terrestrial #61 (x) (special)",
+        "description": "",
+        "image": "alien501.gif",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661343592496496641",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Blackhole"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Purple"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Eye of the Blackhole"
+            }
+        ]
     }
 ]

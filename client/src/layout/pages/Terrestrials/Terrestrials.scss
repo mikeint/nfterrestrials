@@ -4,6 +4,7 @@
     padding: 30px;
     max-width: 1900px;
     margin: auto;
+    position: relative;
 }
 .filterSelections {
     display: flex;
@@ -13,6 +14,10 @@
     max-width: 300px;
     min-width: 300px;
     transition: 0.3s;
+    top: 0;
+    position: -webkit-sticky; 
+    position: sticky;
+    align-self: flex-start;
 }
 .filterResultsContainer { 
     width: 80%; 
@@ -81,7 +86,7 @@ option {
 
 @media only screen and (max-width:1024px){
     .filterBtn  {
-        height: 45px;  
+        height: 40px;  
         font-size: 20px;
     }
     .filterContainer {
@@ -93,6 +98,9 @@ option {
         min-width: unset;
         max-width: unset; 
         flex-direction: column;
+        top: unset; 
+        position: unset;
+        align-self: unset;
     }
     .filterResultsContainer {
         flex-direction: row;
