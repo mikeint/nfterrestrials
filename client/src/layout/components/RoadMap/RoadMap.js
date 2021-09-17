@@ -11,12 +11,12 @@ const RoadMap = () =>
         <div className="roadMapItemContainer">
             <div className="roadMapItem p2 roadMapItemLeft">Project Launch</div>
             <div className="roadMapItem">Introduction to the different alien species, genders, galaxies and wide array of accessories. Owners of NF Terrestrials #1-#25 will be invited to join the Founders Council. The Founders will work with the Overlord to help steer the Supercarrier into the future. One NF Terrestrial will be air dropped to a lucky member of this exclusive council.</div>
-            <div className="roadMapItem roadMapItemCheck sc"></div>
+            <div className="roadMapItem roadMapItemCheck">✓</div>
         </div>
         <div className="roadMapItemContainer">
             <div className="roadMapItem p3 roadMapItemLeft">100 Sold - 20%</div>
             <div className="roadMapItem">The NF Terrestrials invade a nearby planet for special edition collaboration collection. All owners of NF Terrestrials are invited to the Council (a private Discord channel) and will reap the rewards of continuous giveaways. The first members of the High Council is established on board the Supercarrier.</div>
-            <div className="roadMapItem roadMapItemCheck"></div>
+            <div className="roadMapItem roadMapItemCheck sc"></div>
         </div>
         <div className="roadMapItemContainer">
             <div className="roadMapItem p4 roadMapItemLeft">200 Sold - 40%</div>
