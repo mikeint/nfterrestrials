@@ -7,6 +7,7 @@ import Bio from "../../components/Bio/Bio"
 import Footer from "../../components/Footer/Footer"
 import TopButtons from "../../components/TopButtons/TopButtons"
 import Socials from "../../components/Socials/Socials" 
+import VideoSequence from "../../components/VideoSequence/VideoSequence" 
 
 class Landing extends Component {
     render() {
@@ -18,6 +19,7 @@ class Landing extends Component {
                 <div className="homeBodyContainer">
                     <TerrestrialExamples />
                     <Bio />
+                    <VideoSequence />
                     <RoadMap />
                     <Footer />
                 </div>

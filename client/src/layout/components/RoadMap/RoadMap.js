@@ -25,7 +25,7 @@ const RoadMap = () =>
         </div>
         <div className="roadMapItemContainer">
             <div className="roadMapItem p5 roadMapItemLeft">300 Sold - 60%</div>
-            <div className="roadMapItem">Merchandise drop.<br />Rarity.tools integration.</div>
+            <div className="roadMapItem">Merchandise drop.</div>
             <div className="roadMapItem roadMapItemCheck"></div>
         </div>
         <div className="roadMapItemContainer">
@@ -35,7 +35,7 @@ const RoadMap = () =>
         </div>
         <div className="roadMapItemContainer">
             <div className="roadMapItem p7 roadMapItemLeft">500 Sold - 100%</div>
-            <div className="roadMapItem">All NF Terrestrial offspring holders will enter a raffle to win a minted NF Terrestrials animated cartoon and holders will also enter a raffle to win a 1 ETH giveaway.</div>
+            <div className="roadMapItem">All NF Terrestrial offspring holders will enter raffles to win special edition prizes.</div>
             <div className="roadMapItem roadMapItemCheck"></div>
         </div>
         <div className="roadMapItemContainer">
