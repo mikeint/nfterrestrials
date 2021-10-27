@@ -1474,7 +1474,6 @@
             }
         ]
     },
-    
     {
         "name": "Martian (x)",
         "image": "alien6.png",
@@ -3719,6 +3718,26 @@
             {
                 "trait_type": "ACC",
                 "value": "Dagger"
+            }
+        ]
+    },
+    {
+        "name": "NF Terrestrial #151 (x) (special)",
+        "description": "",
+        "image": "alien502.gif",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661442548542996481",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Sombrero"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Red"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Eye of the Sombrero"
             }
         ]
     }

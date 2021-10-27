@@ -1,0 +1,36 @@
+.TeamContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    .imageContainer {
+        .teamDesc {
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+            text-align: center;
+            .teamName {
+                font-size: 17px;
+                font-weight: bold;
+            }
+            .teamPosition {
+                font-size: 14px;
+            }
+        }
+        img {
+            width: 300px;
+            margin: 10px;
+            transition: 0.3s;
+        }
+    }
+}
+
+
+@media only screen and (max-width:1024px) {
+    .TeamContainer {
+        margin-top: 0px; 
+        flex-direction: column;
+        .imageContainer {
+            margin: auto;
+        }
+    }
+}
