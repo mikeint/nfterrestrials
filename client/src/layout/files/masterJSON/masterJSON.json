@@ -3740,5 +3740,1197 @@
                 "value": "Eye of the Sombrero"
             }
         ]
+    },
+    {
+        "name": "Martian (x)",
+        "image": "alien10.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661443648054624257/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Cigar"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Wings"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Green"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Green Mono Optic"
+            }
+        ]
+    },
+    {
+        "name": "Martian (x)",
+        "image": "alien12.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661444747566252033/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Sunflower"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Gold Double Sword"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Green"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Shotgun"
+            },
+            {
+                "trait_type": "CHEST",
+                "value": "Red Vest"
+            }
+        ]
+    },
+    {
+        "name": "Martian (x)",
+        "image": "alien37.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661445847077879809/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Andromeda"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Gold Sword"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Pink"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Crypto Cannon"
+            },
+            {
+                "trait_type": "CHEST",
+                "value": "Black Armor"
+            }
+        ]
+    },
+    {
+        "name": "Martian (x)",
+        "image": "alien43.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661446946589507585/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Sombrero"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Wings"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Red"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Red Lazer Optics"
+            },
+            {
+                "trait_type": "CHEST",
+                "value": "Red Vest"
+            }
+        ]
+    },
+    {
+        "name": "Martian (x)",
+        "image": "alien46.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661448046101135361/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Leo"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Jetpack"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Blue"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Gold Red Lazer Optics"
+            }
+        ]
+    },
+    {
+        "name": "Martian (x)",
+        "image": "alien51.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661449145612763137/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Blackhole"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Sword"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Pink"
+            },
+            {
+                "trait_type": "CHEST",
+                "value": "Black Armor"
+            }
+        ]
+    },
+    {
+        "name": "Martian (x)",
+        "image": "alien58.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661450245124390913/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Elliptical"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Gold Jetpack"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Grey"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Shotgun"
+            },
+            {
+                "trait_type": "CHEST",
+                "value": "Green Vest"
+            }
+        ]
+    },
+    {
+        "name": "Martian (x)",
+        "image": "alien59.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661451344636018689/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Cigar"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Purple"
+            }
+        ]
+    },
+    {
+        "name": "Martian (x)",
+        "image": "alien62.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661452444147646465/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Cartwheel"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Red"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Lazer Gun"
+            }
+        ]
+    },
+    {
+        "name": "Martian (x)",
+        "image": "alien66.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661453543659274241/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Elliptical"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "White"
+            },
+            {
+                "trait_type": "CHEST",
+                "value": "Blue Vest"
+            }
+        ]
+    },
+    {
+        "name": "Martian (x)",
+        "image": "alien80.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661454643170902017/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Sombrero"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Jetpack"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Red"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Enemy Tracker"
+            }
+        ]
+    },
+    {
+        "name": "Martian (y)",
+        "image": "alien85.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661455742682529793/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Sunflower"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "White Wings"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Red"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Red Lazer Optics"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Dagger"
+            }
+        ]
+    },
+    {
+        "name": "Martian (y)",
+        "image": "alien91.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661456842194157569/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Cigar"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Axe"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Grey"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Blue Mono Optic"
+            }
+        ]
+    },
+    {
+        "name": "Martian (y)",
+        "image": "alien94.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661457941705785345/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Cigar"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Gold Wings"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Yellow"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Crypto Cannon"
+            }
+        ]
+    },
+    {
+        "name": "Martian (y)",
+        "image": "alien108.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661459041217413121/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Spiral"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Jetpack"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Blue"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Enemy Tracker"
+            }
+        ]
+    },
+    {
+        "name": "Martian (y)",
+        "image": "alien111.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661461240240668673/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Milky Way"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Aqua"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Blue Lazer Optics"
+            },
+            {
+                "trait_type": "CHEST",
+                "value": "Red Vest"
+            }
+        ]
+    },
+    {
+        "name": "Martian (y)",
+        "image": "alien119.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661462339752296449/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Sombrero"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Double Sword"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "White"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Blue Lazer Optics"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Lazer Gun"
+            }
+        ]
+    },
+    {
+        "name": "Martian (y)",
+        "image": "alien138.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661463439263924225/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Cartwheel"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Aqua"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Blue Mono Optic"
+            }
+        ]
+    },
+    {
+        "name": "Martian (y)",
+        "image": "alien139.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661464538775552001/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Milky Way"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Purple"
+            }
+        ]
+    },
+    {
+        "name": "Martian (y)",
+        "image": "alien148.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661465638287179777/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Sunflower"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Gold Jetpack"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Green"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Red Lazer Optics"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Lazer Gun"
+            },
+            {
+                "trait_type": "CHEST",
+                "value": "Red Vest"
+            }
+        ]
+    },
+    {
+        "name": "Nordik (x)",
+        "description": "",
+        "image": "alien156.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661466737798807553/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Spiral"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Grey"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Green Lazer Optics"
+            },
+            {
+                "trait_type": "CHEST",
+                "value": "Gold Armor"
+            }
+        ]
+    },
+    {
+        "name": "Nordik (x)",
+        "description": "",
+        "image": "alien161.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661467837310435329/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Sunflower"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Black Jetpack"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Red"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Red Mono Optic"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Crypto Cannon"
+            },
+            {
+                "trait_type": "CHEST",
+                "value": "Purple Vest"
+            }
+        ]
+    },
+    {
+        "name": "Nordik (x)",
+        "description": "",
+        "image": "alien162.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661468936822063105/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Sombrero"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Axe"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Aqua"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Green Mono Optic"
+            }
+        ]
+    },
+    {
+        "name": "Nordik (x)",
+        "description": "",
+        "image": "alien163.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661470036333690881/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Leo"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Black Jetpack"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Grey"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Green Mono Optic"
+            }
+        ]
+    },
+    {
+        "name": "Nordik (x)",
+        "description": "",
+        "image": "alien167.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661471135845318657/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Sombrero"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Orange"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Red Lazer Optics"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Crypto Cannon"
+            }
+        ]
+    },
+    {
+        "name": "Nordik (x)",
+        "description": "",
+        "image": "alien169.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661472235356946433/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Sunflower"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Wings"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Purple"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Green Mono Optic"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Lazer Gun"
+            }
+        ]
+    },
+    {
+        "name": "Nordik (x)",
+        "description": "",
+        "image": "alien174.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661473334868574209/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Sunflower"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "White"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Blue Lazer Optics"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Crypto Cannon"
+            },
+            {
+                "trait_type": "CHEST",
+                "value": "Red Vest"
+            }
+        ]
+    },
+    {
+        "name": "Nordik (x)",
+        "description": "",
+        "image": "alien178.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661474434380201985/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Milky Way"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Double Sword"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Aqua"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Red Lazer Optics"
+            }
+        ]
+    },
+    {
+        "name": "Nordik (y)",
+        "description": "",
+        "image": "alien228.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661475533891829761/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Milky Way"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "White Wings"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Pink"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Blue Lazer Optics"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Galactic Cannon"
+            }
+        ]
+    },
+    {
+        "name": "Nordik (y)",
+        "description": "",
+        "image": "alien231.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661476633403457537/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Cigar"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Axe"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Blue"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Blue Lazer Optics"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Galactic Cannon"
+            }
+        ]
+    },
+    {
+        "name": "Nordik (y)",
+        "description": "",
+        "image": "alien234.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661477732915085313/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Leo"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Gold Sword"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Yellow"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Crypto Cannon"
+            },
+            {
+                "trait_type": "CHEST",
+                "value": "Green Vest"
+            }
+        ]
+    },
+    {
+        "name": "Nordik (y)",
+        "description": "",
+        "image": "alien238.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661478832426713089/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Elliptical"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Pink"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Red Lazer Optics"
+            }
+        ]
+    },
+    {
+        "name": "Nordik (y)",
+        "description": "",
+        "image": "alien247.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661479931938340865/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Sunflower"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Gold Double Sword"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Pink"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Red Mono Optic"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Dagger"
+            }
+        ]
+    },
+    {
+        "name": "Nordik (y)",
+        "description": "",
+        "image": "alien258.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661481031449968641/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Milky Way"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Aqua"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Blue Mono Optic"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Shotgun"
+            }
+        ]
+    },
+    {
+        "name": "Nordik (y)",
+        "description": "",
+        "image": "alien261.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661482130961596417/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Blackhole"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Axe"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Blue"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Blue Lazer Optics"
+            }
+        ]
+    },
+    {
+        "name": "Sirian (x)",
+        "description": "",
+        "image": "alien293.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661483230473224193/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Cigar"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Gold Jetpack"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Purple"
+            }
+        ]
+    },
+    {
+        "name": "Sirian (x)",
+        "description": "",
+        "image": "alien305.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661484329984851969/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Andromeda"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Aqua"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Lazer Gun"
+            }
+        ]
+    },
+    {
+        "name": "Sirian (x)",
+        "description": "",
+        "image": "alien309.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661485429496479745/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Milky Way"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Wings"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Red"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Red Mono Optic"
+            },
+            {
+                "trait_type": "CHEST",
+                "value": "Red Vest"
+            }
+        ]
+    },
+    {
+        "name": "Sirian (x)",
+        "description": "",
+        "image": "alien331.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661486529008107521/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Elliptical"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Double Sword"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Blue"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Gold Red Mono Optic"
+            }
+        ]
+    },
+    {
+        "name": "Sirian (x)",
+        "description": "",
+        "image": "alien337.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661487628519735297/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Andromeda"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Grey"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Red Mono Optic"
+            }
+        ]
+    },
+    {
+        "name": "Sirian (y)",
+        "description": "",
+        "image": "alien351.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661488728031363073/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Spiral"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Jetpack"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Purple"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Red Mono Optic"
+            },
+            {
+                "trait_type": "CHEST",
+                "value": "Purple Vest"
+            }
+        ]
+    },
+    {
+        "name": "Sirian (y)",
+        "description": "",
+        "image": "alien357.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661489827542990849/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Elliptical"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Wings"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Green"
+            }
+        ]
+    },    
+    {
+        "name": "Sirian (y)",
+        "description": "",
+        "image": "alien358.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661490927054618625/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Elliptical"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Yellow"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Red Mono Optic"
+            }
+        ]
+    },
+    {
+        "name": "Sirian (y)",
+        "description": "",
+        "image": "alien404.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661492026566246401/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Elliptical"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Gold Jetpack"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Red"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Green Lazer Optics"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Shotgun"
+            }
+        ]
+    },
+    {
+        "name": "Talls (x)",
+        "description": "",
+        "image": "alien410.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661493126077874177/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Sombrero"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Axe"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Green"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Green Mono Optic"
+            },
+            {
+                "trait_type": "CHEST",
+                "value": "Purple Vest"
+            }
+        ]
+    },
+    {
+        "name": "Talls (x)",
+        "description": "",
+        "image": "alien429.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661494225589501953/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Andromeda"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "White Wings"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "White"
+            }
+        ]
+    },    
+    {
+        "name": "Talls (x)",
+        "description": "",
+        "image": "alien434.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661495325101129729/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Andromeda"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Yellow"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Gold Green Lazer Optics"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Galactic Cannon"
+            }
+        ]
+    },
+    {
+        "name": "Talls (y)",
+        "description": "",
+        "image": "alien461.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661496424612757505/",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Cartwheel"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Double Sword"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Grey"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Red Mono Optic"
+            },
+            {
+                "trait_type": "CHEST",
+                "value": "Black Armor"
+            }
+        ]
+    },
+    {
+        "name": "Talls (y)",
+        "description": "",
+        "image": "alien486.png",
+        "url": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/11488585280376225964961147146290414951720185828696901505433661452444147646465",
+        "attributes": [
+            {
+                "trait_type": "GALAXY",
+                "value": "Sunflower"
+            },
+            {
+                "trait_type": "BACKWEAR",
+                "value": "Jetpack"
+            },
+            {
+                "trait_type": "BODY",
+                "value": "Blue"
+            },
+            {
+                "trait_type": "HEADWEAR",
+                "value": "Blue Lazer Optics"
+            },
+            {
+                "trait_type": "ACC",
+                "value": "Lazer Gun"
+            },
+            {
+                "trait_type": "CHEST",
+                "value": "White Armor"
+            }
+        ]
     }
 ]
